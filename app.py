@@ -33,7 +33,7 @@ def search_imdb(query_string):
     url = "https://imdb8.p.rapidapi.com/title/auto-complete"
     querystring = {"q": query_string}
     headers = {
-        'x-rapidapi-key': "ca5e3212ccmsh565637e2c968ee0p113ca3jsn6b3dfcfaad56",
+        'x-rapidapi-key': "INSERT API KEY HERE",
         'x-rapidapi-host': "imdb8.p.rapidapi.com"
     }
     try:
